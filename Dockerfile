@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-LABEL maintainer "Ram Gopinathan"
-
 ARG SONARQUBE_SCANNER_CLI_VERSION="3.2.0.1227"
 
 ENV SONARQUBE_SCANNER_HOME /opt/sonar-scanner-${SONARQUBE_SCANNER_CLI_VERSION}-linux
